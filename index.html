@@ -4,19 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>🌍 Planeta Limpio — Aprende a Reciclar</title>
-
-  <!-- Fuentes de Google -->
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Baloo+2:wght@400;600;700;800&display=swap" rel="stylesheet">
-
-  <!-- Hoja de estilos -->
-  <link rel="stylesheet" href="styles.css">
+  <!-- Hoja de estilos local -->
+  <link rel="stylesheet" href="estilos/styles.css">
 </head>
 <body>
 
   <!-- ===== NAVEGACIÓN ===== -->
   <nav>
     <a class="nav-logo" href="#inicio">
-      <span>🌍</span> Planeta Limpio
+      <span><img src="imagenes/logo.png" alt="Logo SAN JOSE" width="75px"></span>Planeta Limpio
     </a>
     <div class="nav-links">
       <a href="#por-que">¿Por qué?</a>
@@ -55,6 +51,16 @@
       <div class="section-badge reveal">🌿 ¿Por qué es importante?</div>
       <h2 class="section-title reveal">Cuando separamos la basura,<br>¡todos ganamos!</h2>
       <p class="section-desc reveal">Si tiramos todo junto en un solo tacho, los materiales útiles se mezclan y se contaminan. Separándolos, podemos reciclarlos y darles nueva vida.</p>
+      
+      <!-- Ilustración SVG del Ciclo Ecológico (Reemplazo de imagen externa) -->
+      <div style="text-align: center; margin-bottom: 40px;" class="reveal">
+        <svg width="200" height="200" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="256" cy="256" r="230" fill="#E8F5E9"/>
+          <path d="M256 64C150 64 64 150 64 256s86 192 192 192 192-86 192-192S362 64 256 64zm0 340c-81.6 0-148-66.4-148-148s66.4-148 148-148 148 66.4 148 148-66.4 148-148 148z" fill="#2E7D32"/>
+          <path d="M256 140v60l50-30-50-30zm-80 146h60v-50l-60 50zm130 34h-50l30 50 20-50z" fill="#66BB6A"/>
+        </svg>
+      </div>
+
       <div class="why-grid">
         <div class="why-card reveal">
           <span class="why-icon">🌊</span>
@@ -190,8 +196,8 @@
     Cada acción cuenta. Cada residuo bien separado es un regalo al futuro.</p>
   </footer>
 
-  <!-- Script principal — siempre al final para que el DOM esté listo -->
-  <script src="app.js"></script>
+  <!-- Script principal local -->
+  <script src="scripts/app.js"></script>
 
 </body>
 </html>
